@@ -1,5 +1,6 @@
 const mp_router = require("express").Router()
 const URLS = require("../configs/urls")
+const mercadopago = require("mercadopago")
 
 mp_router.post("/item", (req, res) => {
   // const {title, unit_price, quantity} = req.body
